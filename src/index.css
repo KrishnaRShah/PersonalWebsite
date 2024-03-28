@@ -1,13 +1,71 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+:root {
+  background: #1a1a1a;
+}
+
+/* Navigation Styling */
+
+.navigation-main{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.navigation-container{
+  margin: 0 auto;
+  width: 50%;
+  height: 50px;
+  border: solid;
+  border-color: aqua;
+  border-radius: 15px;
+  background: rgba(114, 114, 114, .2);
+  backdrop-filter: blur(50px);
+}
+
+
+/* End of Navigation Styling */
+/* Personal Information Styling */
+
+.personal-main{
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+/* End of Personal Information Styling */
+/* Experience Styling */
+
+.experience-main{
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+/* End of Experience Styling */
+/* Project Styling */
+
+.projects-main{
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+/* End of Project Styling */
+/* Contact Styling */
+
+.contact-main{
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+/* End of cONTACT Styling */
