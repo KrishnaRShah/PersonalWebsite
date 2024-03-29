@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: __inter_Fallback_20b187,ui-sans-serif,system-ui,-apple-system,"system-ui",Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,62 +10,139 @@ code {
 }
 
 :root {
-  background: #1a1a1a;
+  background: #131313;
 }
 
-/* Navigation Styling */
+/********************** Navigation Styling **********************/
 
 .navigation-main{
   width: 70%;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .navigation-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   margin: 0 auto;
   width: 50%;
   height: 50px;
-  border: solid;
-  border-color: aqua;
-  border-radius: 15px;
-  background: rgba(114, 114, 114, .2);
-  backdrop-filter: blur(50px);
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+}
+
+.navigation-item{
+  color: grey;
+  font-size: 20px;
+}
+
+.navigation-item:hover {
+  color: #892CDC;
+  transition-duration: 0.3s;
+  cursor: pointer;
 }
 
 
-/* End of Navigation Styling */
-/* Personal Information Styling */
+/********************** End of Navigation Styling **********************/
 
+
+
+/********************** Personal Information Styling **********************/
 .personal-main{
   width: 70%;
   margin: 0 auto;
+  padding: 20vh 0px 100px;
+  display: flex;
+  flex-direction: row;
 }
 
+.personal-general-information{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
 
-/* End of Personal Information Styling */
-/* Experience Styling */
+.personal-spline{
+  width: 60%;
+}
+
+.personal-general-information span {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #892CDC;
+}
+
+.personal-about-me{
+  color: grey;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+/********************** End of Personal Information Styling **********************/
+
+
+
+
+
+
+
+
+
+/********************** Experience Styling **********************/
 
 .experience-main{
   width: 70%;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.experience-main h1{
+  color: white;
+}
+
+.section-break {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
 }
 
 
-/* End of Experience Styling */
-/* Project Styling */
+/********************** End of Experience Styling **********************/
 
+
+
+
+
+
+
+
+
+/********************** Project Styling **********************/
 .projects-main{
   width: 70%;
   margin: 0 auto;
 }
+/********************** End of Project Styling **********************/
 
 
-/* End of Project Styling */
-/* Contact Styling */
 
+
+
+
+
+
+
+
+
+
+/********************** Contact Styling **********************/
 .contact-main{
   width: 70%;
   margin: 0 auto;
 }
-
-
-/* End of cONTACT Styling */
+/********************** End of cONTACT Styling **********************/
