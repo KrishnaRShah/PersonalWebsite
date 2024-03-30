@@ -5,7 +5,7 @@ import Spline from '@splinetool/react-spline';
 
 export default function Personal() {
     return (
-      <div className="personal-main">
+      <div className="personal-main" id="personal">
         <div className="personal-general-information">
           <span>Hey, I'm Krishna!</span>
           <TypeAnimation
