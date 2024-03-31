@@ -17,7 +17,7 @@ export default function Personal() {
               3000
             ]}
             speed={5}
-            style={{ fontSize: '2em' , color: '#BC6FF1'}}
+            style={{ fontSize: '30px' , color: '#BC6FF1'}}
             repeat={Infinity}
           />
 

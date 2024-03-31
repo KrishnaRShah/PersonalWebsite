@@ -1,5 +1,7 @@
 import { SocialIcon } from 'react-social-icons'
 import { GitHub } from 'react-feather';
+import Spline from '@splinetool/react-spline';
+
 
 
 export default function Projects() {
@@ -12,9 +14,11 @@ export default function Projects() {
 
         <div className="projects-container" >
           <div className="project-info-container">
+            <Spline style={{margin:"0px", width: "100px", height: "100px", position: "absolute"}}scene="https://prod.spline.design/mJ8q1ZiuuJM0M1np/scene.splinecode" />
+
             <div className='project-info-links'>
-              <a href='https://github.com/KrishnaRShah'>
-                <GitHub style={{width: "1em", height: "1em"}} color='white' fill='none' strokeWidth={2} strokeLinecap='round' strokeLinejoin='round'/>
+              <a href='https://github.com/KrishnaRShah/ChitChat'>
+                <GitHub style={{width: "2em", height: "2em"}} color='white' fill='none' strokeWidth={2} strokeLinecap='round' strokeLinejoin='round'/>
               </a>
             </div>
             <div className='project-info-title'>CHIT CHAT</div>
@@ -29,9 +33,10 @@ export default function Projects() {
             </div>           
           </div>
           <div className="project-info-container">
+            <Spline style={{margin:"20px", width: "100px", height: "100px", position: "absolute"}} scene="https://prod.spline.design/oQl2i28pB0TgX0nh/scene.splinecode" />
             <div className='project-info-links'>
               <a href='https://github.com/KrishnaRShah'>
-                <GitHub style={{width: "1em", height: "1em"}} color='white' fill='none' strokeWidth={2} strokeLinecap='round' strokeLinejoin='round'/>
+                <GitHub style={{width: "2em", height: "2em"}} color='white' fill='none' strokeWidth={2} strokeLinecap='round' strokeLinejoin='round'/>
               </a>
             </div>
             <div className='project-info-title'>WEALTH WAVE</div>
@@ -44,15 +49,14 @@ export default function Projects() {
             </div>
           </div>
           <div className="project-info-container">
-            <div className='project-info-links'>
-              <a href='https://github.com/KrishnaRShah'>
-                <GitHub style={{width: "1em", height: "1em"}} color='white' fill='none' strokeWidth={2} strokeLinecap='round' strokeLinejoin='round'/>
+            <Spline style={{margin:"20px", width: "100px", height: "100px", position: "absolute"}} scene="https://prod.spline.design/WSFC3DDM9ta1G5fY/scene.splinecode" />     
+            <div className='project-info-links'>        
+              <a href='https://github.com/KrishnaRShah/CircuitCentral'>
+                <GitHub style={{width: "2em", height: "2em"}} color='white' fill='none' strokeWidth={2} strokeLinecap='round' strokeLinejoin='round'/>
               </a>
             </div>
-            <div className='project-info-title'>CIRCUIT CENTRAL</div>
-            <div className='project-info-description'>
-              Computer Products E-Commerce Store
-            </div>
+            <div className='project-info-title'>CIRCUIT CENTRAL</div>           
+            <div className='project-info-description'>Computer Products E-Commerce Store</div>
             <div className='project-info-tools'>
               <span>React</span>
               <span>Node</span>
@@ -61,9 +65,10 @@ export default function Projects() {
             </div>
           </div>
           <div className="project-info-container">
+            <Spline style={{marginLeft:"20px", marginTop: "100px", width: "100px", height: "100px", position: "absolute"}} scene="https://prod.spline.design/s9wprCwF-ApjdDTf/scene.splinecode" />
             <div className='project-info-links'>
-              <a href='https://github.com/KrishnaRShah'>
-                <GitHub style={{width: "1em", height: "1em"}} color='white' fill='none' strokeWidth={2} strokeLinecap='round' strokeLinejoin='round'/>
+              <a href='https://github.com/KrishnaRShah/FoodBank-Order-Management-System'>
+                <GitHub style={{width: "2em", height: "2em"}} color='white' fill='none' strokeWidth={2} strokeLinecap='round' strokeLinejoin='round'/>
               </a>  
             </div>
             <div className='project-info-title'>FOODBANK ORDER MANAGEMENT SYSTEM</div>
