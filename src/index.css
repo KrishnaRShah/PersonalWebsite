@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: __inter_Fallback_20b187,ui-sans-serif,system-ui,-apple-system,"system-ui",Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+  font-family: monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -79,7 +79,7 @@ code {
 }
 
 .personal-about-me{
-  color: grey;
+  color: #bbbbbb;
   line-height: 1.6;
   font-weight: 400;
 }
@@ -99,6 +99,7 @@ code {
 .experience-main{
   width: 70%;
   margin: 0 auto;
+  padding: 0px 0px 100px;
 }
 
 .section-header{
@@ -121,59 +122,66 @@ code {
 }
 
 .experience-info-container{
-  background-color: #1c1c1c;
+  background: radial-gradient(100% 100% at 0% 0%,hsla(0,0%,100%,.03),transparent);
   width: 100%;
 }
 
 .experience-info-title{
-  color: white;
+  font-size: 20px;
+  color: #bbbbbb;
 }
 
 .experience-info-timeline{
-  color: white;
+  font-size: 18px;
+  color: #bbbbbb;
+  margin: 5px 0 0 0;
 }
 
 .experience-info-responsibilities{
-  color: white;
-  
+  display: flex;
+  align-items: center;
+  color: #bbbbbb;
+  margin: 20px 0 30px 0;
+}
 
+.experience-info-tools{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
 .experience-info-tools span {
   font-size: 15px;
+  background: radial-gradient(100% 100% at 0% 0%,hsla(0,0%,100%,.03),transparent);
   color: #892CDC;
   border: 1px solid #892CDC;
   padding: 3px 6px;
   border-radius: 2px;
-  background-color: #40cf8f0f;
+  font-family: monospace;
 }
 
 /********************** End of Experience Styling **********************/
-
-
 
 
 /********************** Project Styling **********************/
 .projects-main{
   width: 70%;
   margin: 0 auto;
+  padding: 0px 0px 50px;
 }
 
 .projects-container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  gap: 50px;
 }
 
 .project-info-container{
-  border: solid;
-  border-color: #892CDC;
-  border-width: 2px;
-  border-radius: 4px;
-  color: white;
+  border-radius: 5px;
+  background: radial-gradient(100% 100% at 0% 0%,hsla(0,0%,100%,.03),transparent);
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .project-info-links{
@@ -185,24 +193,53 @@ code {
 .project-info-title{
   display: flex;
   justify-content: center;
+  color: white;
+  font-family: monospace;
+  font-size: 25px;
+}
+
+.project-info-description{
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 15px;
+  color: white;
+}
+
+.project-info-tools{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.project-info-tools span {
+  font-size: 15px;
+  background: radial-gradient(100% 100% at 0% 0%,hsla(0,0%,100%,.03),transparent);
+  color: #892CDC;
+  border: 1px solid #892CDC;
+  padding: 3px 6px;
+  border-radius: 2px;
+  font-family: monospace;
 }
 
 /********************** End of Project Styling **********************/
 
 
-
-
-
-
-
-
-
-
-
-
 /********************** Contact Styling **********************/
 .contact-main{
   width: 70%;
-  margin: 0 auto;
+  margin: 20px auto 0;
+  display: flex;
+  justify-content: space-between;
+  border-top: solid;
+  border-top-color: grey;
+  border-width: 1px;
 }
+
+.contact-links{
+  display: flex;
+  gap: 10px;
+}
+  
 /********************** End of cONTACT Styling **********************/

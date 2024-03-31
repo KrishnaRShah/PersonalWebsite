@@ -33,7 +33,7 @@ export default function Personal() {
         </div>
 
         <div className='personal-spline'>
-          <Spline style={{height: "600px"}} scene="https://prod.spline.design/NYBlWZt8UhyfKh-y/scene.splinecode" />
+          <Spline style={{height: "600px"}} scene="https://prod.spline.design/adEr2hAqVpV9KeBT/scene.splinecode" />
         </div>
       </div>     
     )
