@@ -40,7 +40,7 @@ export default function Projects() {
               </a>
             </div>
             <div className='project-info-title'>WEALTH WAVE</div>
-            <div className='project-info-description'>Budgetting & Financial Tracker</div>
+            <div className='project-info-description'>Budgeting & Financial Tracker</div>
             <div className='project-info-tools'>
               <span>React</span>
               <span>Sring Boot</span>
