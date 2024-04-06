@@ -35,7 +35,7 @@ export default function Projects() {
           <div className="project-info-container">
             <Spline style={{margin:"20px", width: "100px", height: "100px", position: "absolute"}} scene="https://prod.spline.design/oQl2i28pB0TgX0nh/scene.splinecode" />
             <div className='project-info-links'>
-              <a href='https://github.com/KrishnaRShah'>
+              <a href='https://github.com/KrishnaRShah/WealthWave'>
                 <GitHub style={{width: "2em", height: "2em"}} color='white' fill='none' strokeWidth={2} strokeLinecap='round' strokeLinejoin='round'/>
               </a>
             </div>
