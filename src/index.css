@@ -17,7 +17,7 @@ code {
 
 .navigation-main{
   width: 70%;
-  margin: 10px auto;  
+  margin: 30px auto;  
 }
 
 .navigation-container{
@@ -50,15 +50,13 @@ code {
 
 /********************** End of Navigation Styling **********************/
 
-
-
 /********************** Personal Information Styling **********************/
 .personal-main{
   width: 70%;
   margin: 0 auto;
-  padding: 20vh 0px 100px;
+  padding: 25vh 0px 100px;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .personal-general-information{
@@ -74,26 +72,57 @@ code {
 .personal-general-information span {
   font-size: 50px;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 56px; 
   color: #892CDC;
 }
 
 .personal-about-me{
-  color: #bbbbbb;
+  color: white;
   line-height: 1.6;
   font-weight: 400;
   font-size: 18px;
 }
 
+.down-arrow {
+  color: #892CDC;
+  position: absolute;
+  top: calc(100vh - 80px);
+  left: calc(50% - 14px);
+  width: 0;
+  height: 30px;
+  border: 2px solid;
+  border-radius: 2px;
+  animation: jumpInfinite 1.5s infinite;
+}
+
+.down-arrow:after {
+  content: " ";
+  color: #892CDC;
+  position: absolute;
+  top: 12px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+
 /********************** End of Personal Information Styling **********************/
-
-
-
-
-
-
-
-
 
 /********************** Experience Styling **********************/
 
@@ -123,25 +152,25 @@ code {
 }
 
 .experience-info-container{
-  background: radial-gradient(100% 100% at 0% 0%,hsla(0,0%,100%,.03),transparent);
+  background: #1c1c1c;
   width: 100%;
 }
 
 .experience-info-title{
   font-size: 20px;
-  color: #bbbbbb;
+  color: white;
 }
 
 .experience-info-timeline{
   font-size: 18px;
-  color: #bbbbbb;
+  color: white;
   margin: 5px 0 0 0;
 }
 
 .experience-info-responsibilities{
   display: flex;
   align-items: center;
-  color: #bbbbbb;
+  color: white;
   margin: 20px 0 30px 0;
   font-size: 17px;
 }
@@ -155,10 +184,11 @@ code {
 .experience-info-tools span {
   font-size: 15px;
   background: radial-gradient(100% 100% at 0% 0%,hsla(0,0%,100%,.03),transparent);
-  color: #892CDC;
-  border: 1px solid #892CDC;
+  color: #BC6FF1;
+  border: 1px solid #BC6FF1;
   padding: 3px 6px;
   border-radius: 2px;
+  margin-bottom: 15px;
   font-family: monospace;
 }
 
@@ -175,12 +205,12 @@ code {
 .projects-container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
+  gap: 20px;
 }
 
 .project-info-container{
   border-radius: 5px;
-  background: radial-gradient(100% 100% at 0% 0%,hsla(0,0%,100%,.03),transparent);
+  background: #1c1c1c;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -214,13 +244,14 @@ code {
   justify-content: center;
   flex-direction: row;
   gap: 10px;
+  margin-bottom: 20px;
 }
 
 .project-info-tools span {
   font-size: 15px;
   background: radial-gradient(100% 100% at 0% 0%,hsla(0,0%,100%,.03),transparent);
-  color: #892CDC;
-  border: 1px solid #892CDC;
+  color: #BC6FF1;
+  border: 1px solid #BC6FF1;
   padding: 3px 6px;
   border-radius: 2px;
   font-family: monospace;
