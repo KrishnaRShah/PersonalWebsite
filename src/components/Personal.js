@@ -35,6 +35,8 @@ export default function Personal() {
         <div className='personal-spline'>
           <Spline style={{height: "600px"}} scene="https://prod.spline.design/adEr2hAqVpV9KeBT/scene.splinecode" />
         </div>
+        
+        <div class="down-arrow"></div>
       </div>     
     )
 }
