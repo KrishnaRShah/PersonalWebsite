@@ -21,7 +21,7 @@ export default function Personal() {
             repeat={Infinity}
           />
 
-          <div className='personal-about-me'>I'm a passionate and dedicated 4th year Software Engineering student at the University of Calgary. 
+          <div className='personal-about-me'>I'm a passionate and dedicated 5th year Software Engineering student at the University of Calgary. 
             I have always been fascinated by the world of technology and its limitless potential to shape the future. 
             My curiosity and drive to learn led me to pursue a career in software engineering, where I can actively contribute to the development of innovative solutions.
           </div>
@@ -32,9 +32,9 @@ export default function Personal() {
           </div>      
         </div>
 
-        <div className='personal-spline'>
+        {/* <div className='personal-spline'>
           <Spline style={{height: "600px"}} scene="https://prod.spline.design/adEr2hAqVpV9KeBT/scene.splinecode" />
-        </div>
+        </div> */}
         
         <div class="down-arrow"></div>
       </div>     
